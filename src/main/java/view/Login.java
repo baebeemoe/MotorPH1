@@ -8,12 +8,12 @@ public class Login extends JFrame implements ActionListener {
     private JPanel LoginForm;
     private JPanel backgroundPanel;
     private JPanel formContainer;
-    private JLabel loginTitle;
     private JPanel form;
     private JTextField emailField;
     private JPasswordField passwordField;
     private JLabel emailLabel;
     private JLabel passwordLabel;
+    private JLabel motorPhLabel;
 
     public Login() {
         super("MotorPH - Payroll Management System");
